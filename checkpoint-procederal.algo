@@ -1,0 +1,23 @@
+PROCEDURE dot_product(vi, v2 :integer, var ps:integer=0)
+VAR
+i,j:integer
+BEGIN
+for i from 0 to n-1 step 1 do
+for j from i to n-2 step 1 do
+IF (vp(v1,v2=0)) THEN
+    write(" les deux vecteurs sont orthogonaux")
+ELSE
+    write(" les deux vecteurs ne sont pas orthogonaux")
+END_IF
+end for
+end fo 
+end   
+
+ALGORITHM dot_product
+VAR
+tab1 : ARRAY_OF type[n];
+BEGIN
+    /// saisie les valeurs de tableau 
+    for 0 from 1 to n-1 step 1 Do 
+    read (tab1[i])
+    
